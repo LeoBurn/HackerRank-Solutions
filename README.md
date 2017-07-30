@@ -1,2 +1,2 @@
 # HackerRank-Solutions
-Repository os solved problems from HackerRank WebSite
+Repository of solved problems from HackerRank WebSite
