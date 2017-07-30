@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0B6AB9A3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.Algorithms.Tests", "HackerRankSolutions.Algorithms.Tests\HackerRankSolutions.Algorithms.Tests.csproj", "{A0CED099-3A33-4692-A6F5-F6DEE3FF3888}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.DataStructures", "HackerRankSolutions.DataStructures\HackerRankSolutions.DataStructures.csproj", "{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.DataStructures.Tests", "HackerRankSolutions.DataStructures.Tests\HackerRankSolutions.DataStructures.Tests.csproj", "{E214F709-5F44-4671-8286-D0CC84B2A030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,20 @@ Global
 		{A0CED099-3A33-4692-A6F5-F6DEE3FF3888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0CED099-3A33-4692-A6F5-F6DEE3FF3888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0CED099-3A33-4692-A6F5-F6DEE3FF3888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E214F709-5F44-4671-8286-D0CC84B2A030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E214F709-5F44-4671-8286-D0CC84B2A030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E214F709-5F44-4671-8286-D0CC84B2A030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E214F709-5F44-4671-8286-D0CC84B2A030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0CED099-3A33-4692-A6F5-F6DEE3FF3888} = {0B6AB9A3-8E61-462E-A621-074511E43FD7}
+		{E214F709-5F44-4671-8286-D0CC84B2A030} = {0B6AB9A3-8E61-462E-A621-074511E43FD7}
 	EndGlobalSection
 EndGlobal
