@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Utils.cs" />
     <Compile Include="Implementation\BeautifulDaysAtTheMovies.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,7 +52,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Base\" />
     <Folder Include="BitManipulation\" />
     <Folder Include="ConstructiveAlgorithms\" />
     <Folder Include="DynamicProgramming\" />
