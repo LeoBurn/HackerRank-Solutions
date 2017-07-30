@@ -7,3 +7,6 @@ Repository of solved problems from HackerRank WebSite
 2. **Strings**
 
 ### Data Structs ###
+1. **Stacks**
+    1. Balanced Brackets
+
