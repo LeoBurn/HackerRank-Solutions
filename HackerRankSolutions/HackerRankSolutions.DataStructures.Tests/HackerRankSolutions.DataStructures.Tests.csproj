@@ -55,6 +55,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stacks\BalancedBracketsTest.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HackerRankSolutions.DataStructures\HackerRankSolutions.DataStructures.csproj">
+      <Project>{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}</Project>
+      <Name>HackerRankSolutions.DataStructures</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

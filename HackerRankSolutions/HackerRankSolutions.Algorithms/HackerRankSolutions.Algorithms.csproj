@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Base\Utils.cs" />
     <Compile Include="Implementation\BeautifulDaysAtTheMovies.cs" />
+    <Compile Include="Implementation\GradingStudents.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
