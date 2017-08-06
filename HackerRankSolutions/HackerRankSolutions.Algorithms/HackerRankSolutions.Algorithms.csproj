@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,7 @@
     <Compile Include="Implementation\GradingStudents.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\GridLandMetro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -61,7 +63,6 @@
     <Folder Include="Greedy\" />
     <Folder Include="NpComplete\" />
     <Folder Include="Recursion\" />
-    <Folder Include="Search\" />
     <Folder Include="Sorting\" />
     <Folder Include="Strings\" />
     <Folder Include="Warmup\" />
