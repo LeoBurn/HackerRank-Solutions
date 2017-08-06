@@ -50,6 +50,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetro.cs" />
+    <Compile Include="Warmup\BirthdayCakeCandles.cs" />
+    <Compile Include="Warmup\MiniMaxSum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -65,7 +67,6 @@
     <Folder Include="Recursion\" />
     <Folder Include="Sorting\" />
     <Folder Include="Strings\" />
-    <Folder Include="Warmup\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
