@@ -7,6 +7,7 @@ Repository of solved problems from HackerRank WebSite
 	2. Grading Students
 	3. GridLand Metro
 	4. Breaking the Records
+	5. Birthday Chocolate
     
 2. **Warmup**
 	1. Birthday Cake Candles
