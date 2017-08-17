@@ -57,7 +57,7 @@
     <Compile Include="Implementation\BreakingTheRecordsTest.cs" />
     <Compile Include="Implementation\GradingStudentsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Search\GridLandMetroTest.cs" />
+    <Compile Include="Search\GridLandMetroSearchTest.cs" />
     <Compile Include="Warmup\BirthdayCakeCandlesTest.cs" />
   </ItemGroup>
   <ItemGroup>
