@@ -53,6 +53,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearch.cs" />
+    <Compile Include="Strings\Pangrams.cs" />
     <Compile Include="Warmup\BirthdayCakeCandles.cs" />
     <Compile Include="Warmup\MiniMaxSum.cs" />
   </ItemGroup>
@@ -69,7 +70,6 @@
     <Folder Include="NpComplete\" />
     <Folder Include="Recursion\" />
     <Folder Include="Sorting\" />
-    <Folder Include="Strings\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

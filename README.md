@@ -17,6 +17,9 @@ Repository of solved problems from HackerRank WebSite
 3. **Search**
 	1. GridLand Metro
 	
+4. **String**
+	1. Pangrams
+	
 
 ### Data Structs ###
 1. **Stacks**

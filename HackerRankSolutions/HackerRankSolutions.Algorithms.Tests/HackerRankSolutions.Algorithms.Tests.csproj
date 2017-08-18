@@ -60,6 +60,7 @@
     <Compile Include="Implementation\MigratoryBirdsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearchTest.cs" />
+    <Compile Include="Strings\PangramsTest.cs" />
     <Compile Include="Warmup\BirthdayCakeCandlesTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,7 +73,6 @@
     <Folder Include="NpComplete\" />
     <Folder Include="Recursion\" />
     <Folder Include="Sorting\" />
-    <Folder Include="Strings\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HackerRankSolutions.Algorithms\HackerRankSolutions.Algorithms.csproj">
