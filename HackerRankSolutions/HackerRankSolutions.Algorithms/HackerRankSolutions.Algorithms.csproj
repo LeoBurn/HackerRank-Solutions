@@ -49,6 +49,7 @@
     <Compile Include="Implementation\BirthdayChocolate.cs" />
     <Compile Include="Implementation\BreakingTheRecords.cs" />
     <Compile Include="Implementation\GradingStudents.cs" />
+    <Compile Include="Implementation\MigratoryBirds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearch.cs" />

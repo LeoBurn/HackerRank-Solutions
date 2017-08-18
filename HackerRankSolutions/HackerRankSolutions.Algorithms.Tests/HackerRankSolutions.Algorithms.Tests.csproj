@@ -57,6 +57,7 @@
     <Compile Include="Implementation\BirthdayChocolateTest.cs" />
     <Compile Include="Implementation\BreakingTheRecordsTest.cs" />
     <Compile Include="Implementation\GradingStudentsTest.cs" />
+    <Compile Include="Implementation\MigratoryBirdsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearchTest.cs" />
     <Compile Include="Warmup\BirthdayCakeCandlesTest.cs" />

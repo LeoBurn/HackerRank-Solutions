@@ -8,6 +8,7 @@ Repository of solved problems from HackerRank WebSite
 	3. GridLand Metro
 	4. Breaking the Records
 	5. Birthday Chocolate
+	6. Migratory Birds
     
 2. **Warmup**
 	1. Birthday Cake Candles
