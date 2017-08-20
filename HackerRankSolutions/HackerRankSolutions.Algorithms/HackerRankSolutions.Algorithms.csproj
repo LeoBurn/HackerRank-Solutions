@@ -48,6 +48,7 @@
     <Compile Include="Implementation\BeautifulDaysAtTheMovies.cs" />
     <Compile Include="Implementation\BirthdayChocolate.cs" />
     <Compile Include="Implementation\BreakingTheRecords.cs" />
+    <Compile Include="Implementation\DayOfProgramer.cs" />
     <Compile Include="Implementation\GradingStudents.cs" />
     <Compile Include="Implementation\MigratoryBirds.cs" />
     <Compile Include="Program.cs" />
