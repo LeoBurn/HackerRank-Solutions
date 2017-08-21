@@ -21,6 +21,9 @@ Repository of solved problems from HackerRank WebSite
 4. **String**
 	1. Pangrams
 	
+4. **Bit Manipulation**
+	1. Maximizing XOR
+	
 
 ### Data Structs ###
 1. **Stacks**
