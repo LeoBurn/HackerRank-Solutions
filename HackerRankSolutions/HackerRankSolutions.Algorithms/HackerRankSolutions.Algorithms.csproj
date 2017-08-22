@@ -55,6 +55,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearch.cs" />
+    <Compile Include="Strings\HackerRankInAString.cs" />
     <Compile Include="Strings\Pangrams.cs" />
     <Compile Include="Warmup\BirthdayCakeCandles.cs" />
     <Compile Include="Warmup\MiniMaxSum.cs" />

@@ -20,6 +20,7 @@ Repository of solved problems from HackerRank WebSite
 	
 4. **String**
 	1. Pangrams
+	2. HackerRank in a String!
 	
 4. **Bit Manipulation**
 	1. Maximizing XOR
