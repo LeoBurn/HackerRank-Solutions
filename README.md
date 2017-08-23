@@ -10,6 +10,7 @@ Repository of solved problems from HackerRank WebSite
 	5. Birthday Chocolate
 	6. Migratory Birds
 	7. Day Of Programer
+	8. Drawing Book
     
 2. **Warmup**
 	1. Birthday Cake Candles

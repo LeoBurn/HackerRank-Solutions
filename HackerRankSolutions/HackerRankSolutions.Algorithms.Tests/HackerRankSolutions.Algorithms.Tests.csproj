@@ -59,6 +59,7 @@
     <Compile Include="Implementation\DayOfProgramerTest.cs" />
     <Compile Include="Implementation\GradingStudentsTest.cs" />
     <Compile Include="Implementation\MigratoryBirdsTest.cs" />
+    <Compile Include="Implementation\DrawingBookTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearchTest.cs" />
     <Compile Include="Strings\HackerRankInAStringTest.cs" />
