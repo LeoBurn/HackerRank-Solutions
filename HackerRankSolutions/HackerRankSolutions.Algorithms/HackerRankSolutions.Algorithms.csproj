@@ -47,6 +47,7 @@
     <Compile Include="Base\Utils.cs" />
     <Compile Include="BitManipulation\MaximizingXor.cs" />
     <Compile Include="Implementation\BeautifulDaysAtTheMovies.cs" />
+    <Compile Include="Implementation\BetweenTwoSets.cs" />
     <Compile Include="Implementation\BirthdayChocolate.cs" />
     <Compile Include="Implementation\BreakingTheRecords.cs" />
     <Compile Include="Implementation\DayOfProgramer.cs" />

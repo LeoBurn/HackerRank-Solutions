@@ -54,6 +54,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Implementation\BeautifulDaysAtTheMoviesTest.cs" />
+    <Compile Include="Implementation\BetweenTwoSetsTest.cs" />
     <Compile Include="Implementation\BirthdayChocolateTest.cs" />
     <Compile Include="Implementation\BreakingTheRecordsTest.cs" />
     <Compile Include="Implementation\DayOfProgramerTest.cs" />
