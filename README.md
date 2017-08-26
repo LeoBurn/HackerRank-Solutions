@@ -19,6 +19,7 @@ Repository of solved problems from HackerRank WebSite
 	
 3. **Search**
 	1. GridLand Metro
+	2. Missing Numbers
 	
 4. **String**
 	1. Pangrams

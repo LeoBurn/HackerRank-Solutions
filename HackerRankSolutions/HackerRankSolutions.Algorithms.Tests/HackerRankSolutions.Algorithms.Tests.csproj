@@ -63,6 +63,7 @@
     <Compile Include="Implementation\DrawingBookTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\GridLandMetroSearchTest.cs" />
+    <Compile Include="Search\MIssingNumbersTest.cs" />
     <Compile Include="Strings\FunnyStringTest.cs" />
     <Compile Include="Strings\HackerRankInAStringTest.cs" />
     <Compile Include="Strings\PangramsTest.cs" />
