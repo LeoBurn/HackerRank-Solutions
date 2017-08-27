@@ -13,26 +13,50 @@ namespace HackerRankSolutions.Algorithms.Tests.Implementation
     public class DayOfProgramerTest
     {
         [TestMethod]
-        public void ShouldGetDayOfProgramer()
+        public void ShouldGetDayOfProgramerIn1918()
         {
             //Arrange
-            int year1 = 2016;
-            string expectedValue1 = "12.09.2016";
-            int year2 = 2017;
-            string expectedValue2 = "13.09.2017";
-            int year3 = 1918;
-            string expectedValue3 = "26.09.1918";
+            int year = 1918;
+            string expectedValue = "26.09.1918";
             DayOfProgramer runner = new DayOfProgramer();
 
             //Act
-            var result1 = runner.Run(year1);
-            var result2 = runner.Run(year2);
-            var result3 = runner.Run(year3);
+            var result = runner.Run(year);
 
             //Assert
-            Assert.AreEqual(expectedValue1,result1);
-            Assert.AreEqual(expectedValue2, result2);
-            Assert.AreEqual(expectedValue3, result3);
+            Assert.AreEqual(expectedValue, result);
         }
+
+        [TestMethod]
+        public void ShouldGetDayOfProgramerInBissextusYear()
+        {
+            //Arrange
+            int year = 2016;
+            string expectedValue = "12.09.2016";
+            DayOfProgramer runner = new DayOfProgramer();
+
+            //Act
+            var result = runner.Run(year);
+
+            //Assert
+            Assert.AreEqual(expectedValue, result);
+        }
+
+        [TestMethod]
+        public void ShouldGetDayOfProgramerInNotBissextus()
+        {
+            //Arrange
+            int year = 2017;
+            string expectedValue = "13.09.2017";
+            DayOfProgramer runner = new DayOfProgramer();
+
+            //Act
+            var result = runner.Run(year);
+
+
+            //Assert
+            Assert.AreEqual(expectedValue, result);
+        }
+
     }
 }

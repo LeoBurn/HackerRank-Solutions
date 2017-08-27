@@ -13,10 +13,8 @@ namespace HackerRankSolutions.Algorithms
     {
         static void Main(string[] args)
         {
-            MaximizingXor runner = new MaximizingXor();
-            runner.Run(10, 15);
-            int value = 2;
-            var result = (1 << 2+1)-1;
+            var text = Environment.SpecialFolder.CommonApplicationData;
+            var text2 = Environment.GetFolderPath(text);
         }
     }
 }
