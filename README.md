@@ -25,6 +25,7 @@ Repository of solved problems from HackerRank WebSite
 	1. Pangrams
 	2. HackerRank in a String!
 	3. Funny String
+	4. SuperReduceString
 	
 4. **Bit Manipulation**
 	1. Maximizing XOR

@@ -67,6 +67,7 @@
     <Compile Include="Strings\FunnyStringTest.cs" />
     <Compile Include="Strings\HackerRankInAStringTest.cs" />
     <Compile Include="Strings\PangramsTest.cs" />
+    <Compile Include="Strings\SuperReduceStringTest.cs" />
     <Compile Include="Warmup\BirthdayCakeCandlesTest.cs" />
   </ItemGroup>
   <ItemGroup>

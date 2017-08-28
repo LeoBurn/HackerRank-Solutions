@@ -61,6 +61,7 @@
     <Compile Include="Strings\FunnyString.cs" />
     <Compile Include="Strings\HackerRankInAString.cs" />
     <Compile Include="Strings\Pangrams.cs" />
+    <Compile Include="Strings\SuperReduceString.cs" />
     <Compile Include="Warmup\BirthdayCakeCandles.cs" />
     <Compile Include="Warmup\MiniMaxSum.cs" />
   </ItemGroup>
