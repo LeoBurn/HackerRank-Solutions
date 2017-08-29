@@ -58,6 +58,7 @@
     <Compile Include="Implementation\BirthdayChocolateTest.cs" />
     <Compile Include="Implementation\BreakingTheRecordsTest.cs" />
     <Compile Include="Implementation\DayOfProgramerTest.cs" />
+    <Compile Include="Implementation\DesignerPDFViewerTest.cs" />
     <Compile Include="Implementation\GradingStudentsTest.cs" />
     <Compile Include="Implementation\MigratoryBirdsTest.cs" />
     <Compile Include="Implementation\DrawingBookTest.cs" />

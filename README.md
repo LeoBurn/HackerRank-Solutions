@@ -12,6 +12,7 @@ Repository of solved problems from HackerRank WebSite
 	7. Day Of Programer
 	8. Drawing Book
 	9. Between Two Sets
+	10. Designer PDF Viewer
     
 2. **Warmup**
 	1. Birthday Cake Candles
