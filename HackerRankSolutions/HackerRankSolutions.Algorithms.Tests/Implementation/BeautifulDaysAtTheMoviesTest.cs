@@ -25,7 +25,7 @@ namespace HackerRankSolutions.Algorithms.Tests.Implementation
 
             BeautifulDaysAtTheMovies runner = new BeautifulDaysAtTheMovies();
 
-            //Act
+            //Act 
             var resultNumberOne = runner.Reverse(numberOne);
             var resultNumberTwo = runner.Reverse(numberTwo);
             var resultNumberThree = runner.Reverse(numberThree);
