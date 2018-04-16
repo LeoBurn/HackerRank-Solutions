@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.Algorithms", "HackerRankSolutions.Algorithms\HackerRankSolutions.Algorithms.csproj", "{6A28DA7E-3B0D-4FDD-A5A0-4A3E7DEA9FB3}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.DataStructures", "HackerRankSolutions.DataStructures\HackerRankSolutions.DataStructures.csproj", "{BC5C7115-D0AE-449A-BFD2-09467A7C2E7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.DataStructures.Tests", "HackerRankSolutions.DataStructures.Tests\HackerRankSolutions.DataStructures.Tests.csproj", "{E214F709-5F44-4671-8286-D0CC84B2A030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.WeekOfCode37", "HackerRankSolutions.WeekOfCode37\HackerRankSolutions.WeekOfCode37.csproj", "{27AC96A3-4F41-4D20-9385-5C95E1DD6FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.WeekOfCode37.Tests", "HackerRankSolutions.WeekOfCode37.Tests\HackerRankSolutions.WeekOfCode37.Tests.csproj", "{77D5158E-E3C2-412A-93ED-2EC663D59596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{E214F709-5F44-4671-8286-D0CC84B2A030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E214F709-5F44-4671-8286-D0CC84B2A030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E214F709-5F44-4671-8286-D0CC84B2A030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AC96A3-4F41-4D20-9385-5C95E1DD6FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AC96A3-4F41-4D20-9385-5C95E1DD6FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AC96A3-4F41-4D20-9385-5C95E1DD6FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AC96A3-4F41-4D20-9385-5C95E1DD6FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D5158E-E3C2-412A-93ED-2EC663D59596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D5158E-E3C2-412A-93ED-2EC663D59596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D5158E-E3C2-412A-93ED-2EC663D59596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D5158E-E3C2-412A-93ED-2EC663D59596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A0CED099-3A33-4692-A6F5-F6DEE3FF3888} = {0B6AB9A3-8E61-462E-A621-074511E43FD7}
 		{E214F709-5F44-4671-8286-D0CC84B2A030} = {0B6AB9A3-8E61-462E-A621-074511E43FD7}
+		{77D5158E-E3C2-412A-93ED-2EC663D59596} = {0B6AB9A3-8E61-462E-A621-074511E43FD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06C493A4-6C19-431F-85A9-65C8DA954383}
 	EndGlobalSection
 EndGlobal
