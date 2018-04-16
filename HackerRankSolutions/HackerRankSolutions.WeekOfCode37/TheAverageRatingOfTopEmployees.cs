@@ -8,7 +8,7 @@ namespace HackerRankSolutions.WeekOfCode37
 {
     public class TheAverageRatingOfTopEmployees
     {
-        public double Run(int [] rating, int numOfElements)
+        public string Run(int [] rating, int numOfElements)
         {
             int sum = 0;
             int counter = 0;
@@ -21,7 +21,8 @@ namespace HackerRankSolutions.WeekOfCode37
                 }
             }
 
-            return Math.Round((sum/(double)counter), 2, MidpointRounding.AwayFromZero);
+            var result = Math.Round((sum/(double)counter), 2, MidpointRounding.AwayFromZero);
+            return result.ToString("F2");
         }
     }
 }
