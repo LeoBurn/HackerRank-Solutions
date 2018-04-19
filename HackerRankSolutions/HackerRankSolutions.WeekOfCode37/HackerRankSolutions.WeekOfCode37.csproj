@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SimpleLanguage.cs" />
+    <Compile Include="SuperiorCharacters.cs" />
     <Compile Include="TheAverageRatingOfTopEmployees.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
