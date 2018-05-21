@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77D5158E-E3C2-412A-93ED-2EC663D59596}</ProjectGuid>
+    <ProjectGuid>{AC4A5C53-0B92-4D02-9232-8AE0E0082A9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HackerRankSolutions.WeekOfCode37.Tests</RootNamespace>
-    <AssemblyName>HackerRankSolutions.WeekOfCode37.Tests</AssemblyName>
+    <RootNamespace>HackerRankSolutions.CrakingTheCodingInterview.Tests</RootNamespace>
+    <AssemblyName>HackerRankSolutions.CrakingTheCodingInterview.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,19 +48,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DynamicLineIntersectionTest.cs" />
-    <Compile Include="SimpleLanguageTest.cs" />
-    <Compile Include="SuperiorCharactersTests.cs" />
-    <Compile Include="TheAverageRatingOfTopEmployeesTest.cs" />
+    <Compile Include="ArraysLeftRotationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HackerRankSolutions.WeekOfCode37\HackerRankSolutions.WeekOfCode37.csproj">
-      <Project>{27ac96a3-4f41-4d20-9385-5c95e1dd6fd0}</Project>
-      <Name>HackerRankSolutions.WeekOfCode37</Name>
+    <ProjectReference Include="..\HackerRankSolutions.CrakingTheCodingInterview\HackerRankSolutions.CrakingTheCodingInterview.csproj">
+      <Project>{810f6dca-121e-409e-ade0-769555f41971}</Project>
+      <Name>HackerRankSolutions.CrakingTheCodingInterview</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

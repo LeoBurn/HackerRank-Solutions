@@ -24,5 +24,7 @@ namespace HackerRankSolutions.WeekOfCode37
             var result = Math.Round((sum/(double)counter), 2, MidpointRounding.AwayFromZero);
             return result.ToString("F2");
         }
+
+
     }
 }

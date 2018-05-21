@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27AC96A3-4F41-4D20-9385-5C95E1DD6FD0}</ProjectGuid>
+    <ProjectGuid>{810F6DCA-121E-409E-ADE0-769555F41971}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HackerRankSolutions.WeekOfCode37</RootNamespace>
-    <AssemblyName>HackerRankSolutions.WeekOfCode37</AssemblyName>
+    <RootNamespace>HackerRankSolutions.CrakingTheCodingInterview</RootNamespace>
+    <AssemblyName>HackerRankSolutions.CrakingTheCodingInterview</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,10 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DynamicLineIntersection.cs" />
-    <Compile Include="SimpleLanguage.cs" />
-    <Compile Include="SuperiorCharacters.cs" />
-    <Compile Include="TheAverageRatingOfTopEmployees.cs" />
+    <Compile Include="ArraysLeftRotation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
