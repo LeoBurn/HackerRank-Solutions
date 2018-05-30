@@ -52,6 +52,7 @@
     <Compile Include="HashTableRansomNoteTest.cs" />
     <Compile Include="MakingAnagramsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueuesATaleOfTwoStacksTest.cs" />
     <Compile Include="StacksBalancedBracketsTest.cs" />
   </ItemGroup>
   <ItemGroup>
