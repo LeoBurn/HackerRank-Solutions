@@ -46,6 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueuesATaleOfTwoStacks.cs" />
     <Compile Include="StacksBalancedBrackets.cs" />
+    <Compile Include="TreesIsThisABinarySearchTree.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
