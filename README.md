@@ -35,4 +35,14 @@ Repository of solved problems from HackerRank WebSite
 ### Data Structs ###
 1. **Stacks**
     1. Balanced Brackets
+    
+### Tutorials ###
+1. **Craking The Coding Interview**
+	1. Arrays: Left Rotation
+	2. Strings: Making Anagrams
+	3. Hash Tables: Ransom Note
+	4. Linked Lists: Detect a Cycle
+	5. Stacks: Balanced Brackets
+	6. Queues: A Tale of Two Stacks
+  
 
