@@ -44,5 +44,6 @@ Repository of solved problems from HackerRank WebSite
 	4. Linked Lists: Detect a Cycle
 	5. Stacks: Balanced Brackets
 	6. Queues: A Tale of Two Stacks
+	7. Trees: Is This a Binary Search Tree?
   
 
