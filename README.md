@@ -47,5 +47,6 @@ Repository of solved problems from HackerRank WebSite
 	5. Stacks: Balanced Brackets
 	6. Queues: A Tale of Two Stacks
 	7. Heaps: Find the Running Median
+	8. Trees: Is This a Binary Search Tree?
   
 
