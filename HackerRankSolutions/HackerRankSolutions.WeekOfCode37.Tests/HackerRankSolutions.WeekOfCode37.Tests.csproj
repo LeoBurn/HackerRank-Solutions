@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DynamicLineIntersectionTest.cs" />
+    <Compile Include="HeapsFindTheRunningMedianTest.cs" />
     <Compile Include="SimpleLanguageTest.cs" />
     <Compile Include="SuperiorCharactersTests.cs" />
     <Compile Include="TheAverageRatingOfTopEmployeesTest.cs" />
@@ -58,6 +59,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HackerRankSolutions.CrakingTheCodingInterview\HackerRankSolutions.CrakingTheCodingInterview.csproj">
+      <Project>{810F6DCA-121E-409E-ADE0-769555F41971}</Project>
+      <Name>HackerRankSolutions.CrakingTheCodingInterview</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HackerRankSolutions.WeekOfCode37\HackerRankSolutions.WeekOfCode37.csproj">
       <Project>{27ac96a3-4f41-4d20-9385-5c95e1dd6fd0}</Project>
       <Name>HackerRankSolutions.WeekOfCode37</Name>

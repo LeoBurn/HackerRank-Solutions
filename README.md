@@ -35,6 +35,8 @@ Repository of solved problems from HackerRank WebSite
 ### Data Structs ###
 1. **Stacks**
     1. Balanced Brackets
+2. **Heaps**
+	1. QHeap1
     
 ### Tutorials ###
 1. **Craking The Coding Interview**
@@ -44,5 +46,6 @@ Repository of solved problems from HackerRank WebSite
 	4. Linked Lists: Detect a Cycle
 	5. Stacks: Balanced Brackets
 	6. Queues: A Tale of Two Stacks
+	7. Heaps: Find the Running Median
   
 
