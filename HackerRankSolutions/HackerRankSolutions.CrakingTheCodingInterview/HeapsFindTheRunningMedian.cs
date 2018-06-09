@@ -31,15 +31,15 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
             return medians;
         }
 
-        public double GetMedian(Heap lower, Heap higher)
+        public static double GetMedian(Heap lower, Heap higher)
         {
             return (lower.Size == higher.Size)
-                ? ((lower.Peek() + higher.Peek()) / (double) 2)
+                ? ((lower.Peek() + higher.Peek()) / (double)2)
                 : (higher.Size > lower.Size ? higher.Peek() : lower.Peek());
 
         }
 
-        public void EquityHeaps(Heap lower, Heap higher)
+        public static void EquityHeaps(Heap lower, Heap higher)
         {
             Heap smallHeap, bigHeap;
 
@@ -90,7 +90,7 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
 
             Elements[Size] = element;
             ++Size;
-            HeapifyUp();
+            HeapifyUp(Size - 1);
         }
 
         /// <summary>
@@ -113,17 +113,43 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
             int item = Elements[0];
             Elements[0] = Elements[Size - 1];
             --Size;
-            HeapifyDown();
+            HeapifyDown(0);
             return item;
+        }
+
+        /// <summary>
+        /// Delete Item specified and Heapify
+        /// </summary>
+        /// <param name="element"></param>
+        public void Delete(int element)
+        {
+            if (Elements[Size - 1] == element)
+            {
+                --Size;
+                return;
+            }
+
+            for (var i = 0; i < Size; ++i)
+            {
+                if (Elements[i] == element)
+                {
+                    Elements[i] = Elements[Size - 1];
+                    --Size;
+                    HeapifyDown(i);
+                    return;
+                }
+            }
+
         }
 
         public bool IsEmpty => Size == 0;
 
         #region Abstract Members
 
-        public abstract void HeapifyDown();
+        public abstract void HeapifyDown(int index);
 
-        public abstract void HeapifyUp();
+        public abstract void HeapifyUp(int index);
+
 
         #endregion
 
@@ -171,10 +197,8 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
         {
         }
 
-        public override void HeapifyDown()
+        public override void HeapifyDown(int index)
         {
-            int index = 0;
-
             while (HasLeftChild(index))
             {
                 int smallValueIndex = LeftChildIdx(index);
@@ -191,16 +215,15 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
             }
         }
 
-        public override void HeapifyUp()
+        public override void HeapifyUp(int index)
         {
-            int index = Size - 1;
-
             while (HasParent(index) && Elements[index] < Parent(index))
             {
                 Swap(index, ParentIdx(index));
                 index = ParentIdx(index);
             }
         }
+
     }
 
     public class MaxHeap : Heap
@@ -209,9 +232,8 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
         {
         }
 
-        public override void HeapifyDown()
+        public override void HeapifyDown(int index)
         {
-            var index = 0;
 
             while (HasLeftChild(index))
             {
@@ -219,7 +241,7 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
                 if (HasRightChild(index) && RightChild(index) > LeftChild(index))
                     bigestValueIdx = RightChildIdx(index);
 
-                if (Elements[index] < Elements[bigestValueIdx])
+                if (Elements[index] > Elements[bigestValueIdx])
                     break;
                 else
                 {
@@ -229,10 +251,8 @@ namespace HackerRankSolutions.CrakingTheCodingInterview
             }
         }
 
-        public override void HeapifyUp()
+        public override void HeapifyUp(int index)
         {
-            var index = Size - 1;
-
             while (HasParent(index) && Elements[index] > Parent(index))
             {
                 Swap(index, ParentIdx(index));
